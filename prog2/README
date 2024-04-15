@@ -1,0 +1,12 @@
+The current makefile is used for testing the optimized code function mmOpt.cu
+
+To run:
+make run
+
+To test the other implementations, change the corresponding makefile to be the one in use
+(ie. Makefile_cublas is used to test the mmCUBLAS.cpp implementation
+     Makefile_naive is used to test the mmNaive.cu implementation)
+     
+To change the makefile to be the proper one, rename the current file called Makefile to something else
+(ie. current to Makefile_opt) 
+and then rename one of the others to simply Makefile.
